@@ -1,0 +1,21 @@
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 1.4rem;
+}
+
+.footerLink {
+    font-size: 1.2rem;
+    color: var(--text-muted);
+    text-decoration: none;
+}
+
+.footerLink:hover{
+
+    color: var(--text-muted);
+    text-decoration: underline;
+}
